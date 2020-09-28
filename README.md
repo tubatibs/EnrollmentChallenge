@@ -69,6 +69,9 @@ Containerzation with Docker or kubernatives, based on volume.
 
 Performance, scalling and dash board and  monitoring. 
 
+## About
+Really enjoyed working on this challenge,   
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 

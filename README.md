@@ -24,7 +24,7 @@ Used H2 database as embedded for this challenge, because it is very light weight
 be changed very easily as using Java Persistence API. 
 
 Simple one table approach to handle enrolle and dependents.
- (H2-DB-enrollment.jpg)
+Please refer screenshot: H2-DB-enrollment.jpg
 
 Executable jar file embedded will all required dependent libraries.  Ready to integrate with front end.
 
@@ -54,7 +54,8 @@ Make sure following URL works after starting   http://localhost:8080/memberEntit
 	// Modify existing dependents
 	modifyDependent(MemberEntity dependent)
 
- (Swagger-MemberJson.JPG)
+Please refer screenshot: Swagger-MemberJson.JPG
+
 ## Future state/Opertunities for improvements
 
 Opertunities to improvements with more business validations like dates, coverages and other items. API's load data from/to different sources. 

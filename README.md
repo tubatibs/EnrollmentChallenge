@@ -19,7 +19,7 @@ Contains individual methods to satisfy the challenge requirements.
 Rest controller to publish RestFull services.
 
 
-### H2 Database:
+## H2 Database:
 Used H2 database as embedded for this challenge, because it is very light weight and 100% pure java and integrates with SpringBoot effectively. If required database can 
 be changed very easily as using Java Persistence API. 
 
@@ -34,8 +34,25 @@ Start Embedded jar: java -jar target/enrollment-0.0.1-SNAPSHOT.jar <pass environ
 
 Make sure following URL works after starting   http://localhost:8080/memberEntities
 
-ReSTfull API:
+## ReSTfull API and associated model Test cases
 
+	// Add a new enrollee
+addEnrollee(MemberEntity enrollee) 
+
+	// Modify an existing enrollee
+ modifyEnrolee(MemberEntity enrollee)
+
+	// Remove an enrollee entirely - soft delete to set activation status as FALSE
+	removeEnroleeEntirely(long id)
+
+	// Add dependents to an enrollee
+	addDependent(MemberEntity dependent)
+
+	// Remove dependents from an enrollee
+	removeDependent(int memberId)
+
+	// Modify existing dependents
+	modifyDependent(MemberEntity dependent)
 
  
 ## Future state/Opertunities for improvements

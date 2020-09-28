@@ -1,6 +1,6 @@
 # Getting Started
 
-### Spring Boot Application:
+## Spring Boot Application:
 Used spring initializer to generate template project with all required maven spring dependencies.  To maeke it easy to review keeping all files in same package.
 
 #### EnrollmentApplication
@@ -53,8 +53,7 @@ Make sure following URL works after starting   http://localhost:8080/memberEntit
 
 	// Modify existing dependents
 	modifyDependent(MemberEntity dependent)
-<image https://github.com/tubatibs/EnrollmentChallenge/edit/master/MemberJson.jpeg>	
-<image https://github.com/tubatibs/EnrollmentChallenge/edit/master/H2-DB-enrollment.jpeg>
+
  
 ## Future state/Opertunities for improvements
 

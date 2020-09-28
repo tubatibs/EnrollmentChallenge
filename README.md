@@ -1,25 +1,25 @@
 # Getting Started
 
-###Spring Boot Application:
+### Spring Boot Application:
 Used spring initializer to generate template project with all required maven spring dependencies.  To maeke it easy to review keeping all files in same package.
 
-####EnrollmentApplication
+#### EnrollmentApplication
 Spring Boot application with different annotations for configuration, repositories and component scans.
 
-####MemberEntity: 
+#### MemberEntity: 
 Entity object with table column and other validations configured. This design uses same object for dependents and enrollees.  All dependents will have enrollee id and zero for enrollee him/her self. This is to avoid redundancy.  
 
-####MemberRepository:  
+#### MemberRepository:  
 CRUD operations repository used to take advantage of spring framework existing functionalities.
 
-####MemberService:  
+#### MemberService:  
 Contains individual methods to satisfy the challenge requirements.
 
-####MemberController: 
+#### MemberController: 
 Rest controller to publish RestFull services.
 
 
-###H2 Database:
+### H2 Database:
 Used H2 database as embedded for this challenge, because it is very light weight and 100% pure java and integrates with SpringBoot effectively. If required database can 
 be changed very easily as using Java Persistence API. 
 
@@ -38,7 +38,7 @@ Make sure following URL works after starting   http://localhost:8080/memberEntit
 
 
  
-##Future state/Opertunities for improvements
+## Future state/Opertunities for improvements
 
 Opertunities to improvements with more business validations like dates, coverages and other items. API's load data from/to different sources. 
 

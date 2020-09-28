@@ -1,0 +1,39 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-09-28 15:05:49.626  INFO 17480 --- [  restartedMain] c.n.c.m.e.EnrollmentApplication          : Starting EnrollmentApplication on FTC-PER-DEV0102 with PID 17480 (C:\ntt\projects\sts-ws-test\enrollment\target\classes started by 113852 in C:\ntt\projects\sts-ws-test\enrollment)
+2020-09-28 15:05:49.629  INFO 17480 --- [  restartedMain] c.n.c.m.e.EnrollmentApplication          : No active profile set, falling back to default profiles: default
+2020-09-28 15:05:49.691  INFO 17480 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-28 15:05:49.691  INFO 17480 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-28 15:05:50.550  INFO 17480 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-28 15:05:50.603  INFO 17480 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 1 JPA repository interfaces.
+2020-09-28 15:05:51.688  INFO 17480 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-28 15:05:51.698  INFO 17480 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-28 15:05:51.698  INFO 17480 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-28 15:05:51.851  INFO 17480 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-28 15:05:51.851  INFO 17480 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2160 ms
+2020-09-28 15:05:52.101  INFO 17480 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-28 15:05:52.332  INFO 17480 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-28 15:05:52.339  INFO 17480 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:c:\enrollment\enrollmentdb'
+2020-09-28 15:05:52.624  INFO 17480 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28 15:05:52.675  INFO 17480 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28 15:05:52.812  INFO 17480 --- [  restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28 15:05:52.928  INFO 17480 --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-28 15:05:53.668  INFO 17480 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28 15:05:53.676  INFO 17480 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 15:05:53.747  INFO 17480 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-28 15:05:54.689  WARN 17480 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 15:05:54.860  INFO 17480 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28 15:05:55.819  INFO 17480 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 15:05:55.902  INFO 17480 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-28 15:05:55.922  INFO 17480 --- [  restartedMain] c.n.c.m.e.EnrollmentApplication          : Started EnrollmentApplication in 6.672 seconds (JVM running for 7.712)
+2020-09-28 15:05:57.009  INFO 17480 --- [on(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-28 15:05:57.010  INFO 17480 --- [on(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-28 15:05:57.026  INFO 17480 --- [on(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+Hibernate: select memberenti0_.id as id1_0_, memberenti0_.activation_status as activati2_0_, memberenti0_.birth_date as birth_da3_0_, memberenti0_.e_id as e_id4_0_, memberenti0_.name as name5_0_, memberenti0_.phone as phone6_0_, memberenti0_.type as type7_0_ from member memberenti0_

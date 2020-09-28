@@ -1,0 +1,152 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.ntt.challenge.member:enrollment >-----------------
+[INFO] Building enrollment 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ enrollment ---
+[INFO] Deleting C:\ntt\projects\sts-ws-test\enrollment\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ enrollment ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ enrollment ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to C:\ntt\projects\sts-ws-test\enrollment\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ enrollment ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\ntt\projects\sts-ws-test\enrollment\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ enrollment ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\ntt\projects\sts-ws-test\enrollment\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ enrollment ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.ntt.challenge.member.enrollment.EnrollmentApplicationTests
+14:57:26.560 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:57:26.575 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:57:26.616 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.ntt.challenge.member.enrollment.EnrollmentApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:57:26.638 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ntt.challenge.member.enrollment.EnrollmentApplicationTests], using SpringBootContextLoader
+14:57:26.642 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ntt.challenge.member.enrollment.EnrollmentApplicationTests]: class path resource [com/ntt/challenge/member/enrollment/EnrollmentApplicationTests-context.xml] does not exist
+14:57:26.642 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ntt.challenge.member.enrollment.EnrollmentApplicationTests]: class path resource [com/ntt/challenge/member/enrollment/EnrollmentApplicationTestsContext.groovy] does not exist
+14:57:26.643 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ntt.challenge.member.enrollment.EnrollmentApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:57:26.703 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ntt.challenge.member.enrollment.EnrollmentApplicationTests]
+14:57:26.887 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.ntt.challenge.member.enrollment.EnrollmentApplicationTests]: using defaults.
+14:57:26.888 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:57:26.913 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@70e9c95d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4d5650ae, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@a38c7fe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6fdbe764, org.springframework.test.context.support.DirtiesContextTestExecutionListener@51c668e3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2e6a8155, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6221a451, org.springframework.test.context.event.EventPublishingTestExecutionListener@52719fb6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3012646b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4a883b15, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@25641d39, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7b36aa0c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5824a83d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@537f60bf]
+14:57:26.919 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1ffaf86 testClass = EnrollmentApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6574a52c testClass = EnrollmentApplicationTests, locations = '{}', classes = '{class com.ntt.challenge.member.enrollment.EnrollmentApplication, class com.ntt.challenge.member.enrollment.EnrollmentApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1d9b7cce, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@14dd9eb7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1fa268de, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@16293aa2, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+14:57:26.963 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-09-28 14:57:27.334  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : Starting EnrollmentApplicationTests on FTC-PER-DEV0102 with PID 18936 (started by 113852 in C:\ntt\projects\sts-ws-test\enrollment)
+2020-09-28 14:57:27.336  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : No active profile set, falling back to default profiles: default
+2020-09-28 14:57:28.417  INFO 18936 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-28 14:57:28.505  INFO 18936 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 1 JPA repository interfaces.
+2020-09-28 14:57:29.678  INFO 18936 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28 14:57:29.756  INFO 18936 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28 14:57:29.963  INFO 18936 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28 14:57:30.245  INFO 18936 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-28 14:57:30.541  INFO 18936 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-28 14:57:30.570  INFO 18936 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-28 14:57:31.623  INFO 18936 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28 14:57:31.635  INFO 18936 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 14:57:33.050  WARN 18936 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 14:57:33.409  INFO 18936 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28 14:57:33.495  INFO 18936 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:c:\enrollment\enrollmentdb'
+2020-09-28 14:57:34.267  INFO 18936 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-28 14:57:34.341  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : Started EnrollmentApplicationTests in 7.366 seconds (JVM running for 8.747)
+Hibernate: select memberenti0_.id as id1_0_, memberenti0_.activation_status as activati2_0_, memberenti0_.birth_date as birth_da3_0_, memberenti0_.e_id as e_id4_0_, memberenti0_.name as name5_0_, memberenti0_.phone as phone6_0_, memberenti0_.type as type7_0_ from member memberenti0_ where memberenti0_.name=?
+Hibernate: select memberenti0_.id as id1_0_0_, memberenti0_.activation_status as activati2_0_0_, memberenti0_.birth_date as birth_da3_0_0_, memberenti0_.e_id as e_id4_0_0_, memberenti0_.name as name5_0_0_, memberenti0_.phone as phone6_0_0_, memberenti0_.type as type7_0_0_ from member memberenti0_ where memberenti0_.id=?
+Hibernate: update member set activation_status=?, birth_date=?, e_id=?, name=?, phone=?, type=? where id=?
+Hibernate: select memberenti0_.id as id1_0_0_, memberenti0_.activation_status as activati2_0_0_, memberenti0_.birth_date as birth_da3_0_0_, memberenti0_.e_id as e_id4_0_0_, memberenti0_.name as name5_0_0_, memberenti0_.phone as phone6_0_0_, memberenti0_.type as type7_0_0_ from member memberenti0_ where memberenti0_.id=?
+Hibernate: select memberenti0_.id as id1_0_0_, memberenti0_.activation_status as activati2_0_0_, memberenti0_.birth_date as birth_da3_0_0_, memberenti0_.e_id as e_id4_0_0_, memberenti0_.name as name5_0_0_, memberenti0_.phone as phone6_0_0_, memberenti0_.type as type7_0_0_ from member memberenti0_ where memberenti0_.id=?
+Hibernate: update member set activation_status=?, birth_date=?, e_id=?, name=?, phone=?, type=? where id=?
+2020-09-28 14:57:34.666  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testModifyEnrolee MemberEntity [id=1, name=JOHN ANTONY SMITH, activationStatus=true, dateOfBirth=1950-01-01 00:00:00.0, phone=999-123-1234, type=ENROLEE, eId=0]
+Hibernate: select memberenti0_.id as id1_0_0_, memberenti0_.activation_status as activati2_0_0_, memberenti0_.birth_date as birth_da3_0_0_, memberenti0_.e_id as e_id4_0_0_, memberenti0_.name as name5_0_0_, memberenti0_.phone as phone6_0_0_, memberenti0_.type as type7_0_0_ from member memberenti0_ where memberenti0_.id=?
+Hibernate: insert into member (id, activation_status, birth_date, e_id, name, phone, type) values (null, ?, ?, ?, ?, ?, ?)
+Hibernate: select memberenti0_.id as id1_0_, memberenti0_.activation_status as activati2_0_, memberenti0_.birth_date as birth_da3_0_, memberenti0_.e_id as e_id4_0_, memberenti0_.name as name5_0_, memberenti0_.phone as phone6_0_, memberenti0_.type as type7_0_ from member memberenti0_ where memberenti0_.id=? or memberenti0_.e_id=?
+2020-09-28 14:57:34.694  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testAddDependent After adding dependent MemberEntity [id=1, name=JOHN ANTONY SMITH, activationStatus=true, dateOfBirth=1950-01-01 00:00:00.0, phone=999-123-1234, type=ENROLEE, eId=0]
+2020-09-28 14:57:34.695  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testAddDependent After adding dependent MemberEntity [id=2, name=LISA SMITH, activationStatus=false, dateOfBirth=1945-01-01 00:00:00.0, phone=999-123-1235, type=DEPENDENT, eId=1]
+2020-09-28 14:57:34.695  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testAddDependent After adding dependent MemberEntity [id=3, name=LIZ SMITH, activationStatus=true, dateOfBirth=1975-01-01 00:00:00.0, phone=999-123-1236, type=DEPENDENT, eId=1]
+2020-09-28 14:57:34.695  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testAddDependent After adding dependent MemberEntity [id=8, name=ANNAMERY JOHN SMITH, activationStatus=true, dateOfBirth=2020-09-28 00:00:00.0, phone=000-123-0000, type=DEPENDENT, eId=1]
+Hibernate: select memberenti0_.id as id1_0_, memberenti0_.activation_status as activati2_0_, memberenti0_.birth_date as birth_da3_0_, memberenti0_.e_id as e_id4_0_, memberenti0_.name as name5_0_, memberenti0_.phone as phone6_0_, memberenti0_.type as type7_0_ from member memberenti0_
+2020-09-28 14:57:34.744  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=1, name=JOHN ANTONY SMITH, activationStatus=true, dateOfBirth=1950-01-01 00:00:00.0, phone=999-123-1234, type=ENROLEE, eId=0]
+2020-09-28 14:57:34.746  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=2, name=LISA SMITH, activationStatus=false, dateOfBirth=1945-01-01 00:00:00.0, phone=999-123-1235, type=DEPENDENT, eId=1]
+2020-09-28 14:57:34.746  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=3, name=LIZ SMITH, activationStatus=true, dateOfBirth=1975-01-01 00:00:00.0, phone=999-123-1236, type=DEPENDENT, eId=1]
+2020-09-28 14:57:34.747  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=4, name=EMILY DAVID, activationStatus=true, dateOfBirth=1950-01-01 00:00:00.0, phone=999-123-1234, type=ENROLEE, eId=0]
+2020-09-28 14:57:34.747  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=5, name=GEORGE DAVID, activationStatus=true, dateOfBirth=1945-01-01 00:00:00.0, phone=999-123-1235, type=DEPENDENT, eId=4]
+2020-09-28 14:57:34.748  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=6, name=RICHARD DAVID, activationStatus=true, dateOfBirth=1975-01-01 00:00:00.0, phone=999-123-1236, type=DEPENDENT, eId=4]
+2020-09-28 14:57:34.749  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=7, name=RICK DAVID, activationStatus=false, dateOfBirth=1977-01-01 00:00:00.0, phone=999-123-1236, type=DEPENDENT, eId=4]
+2020-09-28 14:57:34.750  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=8, name=ANNAMERY JOHN SMITH, activationStatus=true, dateOfBirth=2020-09-28 00:00:00.0, phone=000-123-0000, type=DEPENDENT, eId=1]
+Hibernate: select memberenti0_.id as id1_0_, memberenti0_.activation_status as activati2_0_, memberenti0_.birth_date as birth_da3_0_, memberenti0_.e_id as e_id4_0_, memberenti0_.name as name5_0_, memberenti0_.phone as phone6_0_, memberenti0_.type as type7_0_ from member memberenti0_ where memberenti0_.id=? or memberenti0_.e_id=?
+2020-09-28 14:57:34.764  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testRemoveEnroleeEntirely After soft deleteMemberEntity [id=4, name=EMILY DAVID, activationStatus=true, dateOfBirth=1950-01-01 00:00:00.0, phone=999-123-1234, type=ENROLEE, eId=0]
+2020-09-28 14:57:34.764  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testRemoveEnroleeEntirely After soft deleteMemberEntity [id=5, name=GEORGE DAVID, activationStatus=true, dateOfBirth=1945-01-01 00:00:00.0, phone=999-123-1235, type=DEPENDENT, eId=4]
+2020-09-28 14:57:34.764  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testRemoveEnroleeEntirely After soft deleteMemberEntity [id=6, name=RICHARD DAVID, activationStatus=true, dateOfBirth=1975-01-01 00:00:00.0, phone=999-123-1236, type=DEPENDENT, eId=4]
+2020-09-28 14:57:34.765  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testRemoveEnroleeEntirely After soft deleteMemberEntity [id=7, name=RICK DAVID, activationStatus=false, dateOfBirth=1977-01-01 00:00:00.0, phone=999-123-1236, type=DEPENDENT, eId=4]
+Hibernate: select memberenti0_.id as id1_0_0_, memberenti0_.activation_status as activati2_0_0_, memberenti0_.birth_date as birth_da3_0_0_, memberenti0_.e_id as e_id4_0_0_, memberenti0_.name as name5_0_0_, memberenti0_.phone as phone6_0_0_, memberenti0_.type as type7_0_0_ from member memberenti0_ where memberenti0_.id=?
+Hibernate: update member set activation_status=?, birth_date=?, e_id=?, name=?, phone=?, type=? where id=?
+Hibernate: select memberenti0_.id as id1_0_0_, memberenti0_.activation_status as activati2_0_0_, memberenti0_.birth_date as birth_da3_0_0_, memberenti0_.e_id as e_id4_0_0_, memberenti0_.name as name5_0_0_, memberenti0_.phone as phone6_0_0_, memberenti0_.type as type7_0_0_ from member memberenti0_ where memberenti0_.id=?
+Hibernate: update member set activation_status=?, birth_date=?, e_id=?, name=?, phone=?, type=? where id=?
+Hibernate: select memberenti0_.id as id1_0_0_, memberenti0_.activation_status as activati2_0_0_, memberenti0_.birth_date as birth_da3_0_0_, memberenti0_.e_id as e_id4_0_0_, memberenti0_.name as name5_0_0_, memberenti0_.phone as phone6_0_0_, memberenti0_.type as type7_0_0_ from member memberenti0_ where memberenti0_.id=?
+Hibernate: update member set activation_status=?, birth_date=?, e_id=?, name=?, phone=?, type=? where id=?
+Hibernate: select memberenti0_.id as id1_0_0_, memberenti0_.activation_status as activati2_0_0_, memberenti0_.birth_date as birth_da3_0_0_, memberenti0_.e_id as e_id4_0_0_, memberenti0_.name as name5_0_0_, memberenti0_.phone as phone6_0_0_, memberenti0_.type as type7_0_0_ from member memberenti0_ where memberenti0_.id=?
+Hibernate: select memberenti0_.id as id1_0_, memberenti0_.activation_status as activati2_0_, memberenti0_.birth_date as birth_da3_0_, memberenti0_.e_id as e_id4_0_, memberenti0_.name as name5_0_, memberenti0_.phone as phone6_0_, memberenti0_.type as type7_0_ from member memberenti0_ where memberenti0_.id=? or memberenti0_.e_id=?
+2020-09-28 14:57:34.780  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testRemoveEnroleeEntirely After soft deleteMemberEntity [id=4, name=EMILY DAVID, activationStatus=false, dateOfBirth=1950-01-01 00:00:00.0, phone=999-123-1234, type=ENROLEE, eId=0]
+2020-09-28 14:57:34.781  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testRemoveEnroleeEntirely After soft deleteMemberEntity [id=5, name=GEORGE DAVID, activationStatus=false, dateOfBirth=1945-01-01 00:00:00.0, phone=999-123-1235, type=DEPENDENT, eId=4]
+2020-09-28 14:57:34.781  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testRemoveEnroleeEntirely After soft deleteMemberEntity [id=6, name=RICHARD DAVID, activationStatus=false, dateOfBirth=1975-01-01 00:00:00.0, phone=999-123-1236, type=DEPENDENT, eId=4]
+2020-09-28 14:57:34.781  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testRemoveEnroleeEntirely After soft deleteMemberEntity [id=7, name=RICK DAVID, activationStatus=false, dateOfBirth=1977-01-01 00:00:00.0, phone=999-123-1236, type=DEPENDENT, eId=4]
+Hibernate: insert into member (id, activation_status, birth_date, e_id, name, phone, type) values (null, ?, ?, ?, ?, ?, ?)
+2020-09-28 14:57:34.794  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : testAddEnrollee MemberEntity [id=9, name=SPRING TEST, activationStatus=true, dateOfBirth=Mon Sep 28 14:57:34 IST 2020, phone=000-000-0000, type=ENROLLEE, eId=0]
+Hibernate: select memberenti0_.id as id1_0_, memberenti0_.activation_status as activati2_0_, memberenti0_.birth_date as birth_da3_0_, memberenti0_.e_id as e_id4_0_, memberenti0_.name as name5_0_, memberenti0_.phone as phone6_0_, memberenti0_.type as type7_0_ from member memberenti0_ where memberenti0_.name=?
+Hibernate: select memberenti0_.id as id1_0_0_, memberenti0_.activation_status as activati2_0_0_, memberenti0_.birth_date as birth_da3_0_0_, memberenti0_.e_id as e_id4_0_0_, memberenti0_.name as name5_0_0_, memberenti0_.phone as phone6_0_0_, memberenti0_.type as type7_0_0_ from member memberenti0_ where memberenti0_.id=?
+Hibernate: update member set activation_status=?, birth_date=?, e_id=?, name=?, phone=?, type=? where id=?
+Hibernate: select memberenti0_.id as id1_0_, memberenti0_.activation_status as activati2_0_, memberenti0_.birth_date as birth_da3_0_, memberenti0_.e_id as e_id4_0_, memberenti0_.name as name5_0_, memberenti0_.phone as phone6_0_, memberenti0_.type as type7_0_ from member memberenti0_
+2020-09-28 14:57:34.829  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=1, name=JOHN ANTONY SMITH, activationStatus=true, dateOfBirth=1950-01-01 00:00:00.0, phone=999-123-1234, type=ENROLEE, eId=0]
+2020-09-28 14:57:34.829  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=2, name=LISA SMITH, activationStatus=true, dateOfBirth=1945-01-01 00:00:00.0, phone=111-222-3333, type=DEPENDENT, eId=1]
+2020-09-28 14:57:34.830  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=3, name=LIZ SMITH, activationStatus=true, dateOfBirth=1975-01-01 00:00:00.0, phone=999-123-1236, type=DEPENDENT, eId=1]
+2020-09-28 14:57:34.830  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=4, name=EMILY DAVID, activationStatus=false, dateOfBirth=1950-01-01 00:00:00.0, phone=999-123-1234, type=ENROLEE, eId=0]
+2020-09-28 14:57:34.830  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=5, name=GEORGE DAVID, activationStatus=false, dateOfBirth=1945-01-01 00:00:00.0, phone=999-123-1235, type=DEPENDENT, eId=4]
+2020-09-28 14:57:34.830  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=6, name=RICHARD DAVID, activationStatus=false, dateOfBirth=1975-01-01 00:00:00.0, phone=999-123-1236, type=DEPENDENT, eId=4]
+2020-09-28 14:57:34.830  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=7, name=RICK DAVID, activationStatus=false, dateOfBirth=1977-01-01 00:00:00.0, phone=999-123-1236, type=DEPENDENT, eId=4]
+2020-09-28 14:57:34.830  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=8, name=ANNAMERY JOHN SMITH, activationStatus=true, dateOfBirth=2020-09-28 00:00:00.0, phone=000-123-0000, type=DEPENDENT, eId=1]
+2020-09-28 14:57:34.830  INFO 18936 --- [           main] c.n.c.m.e.EnrollmentApplicationTests     : MemberEntity [id=9, name=SPRING TEST, activationStatus=true, dateOfBirth=2020-09-28 00:00:00.0, phone=000-000-0000, type=ENROLLEE, eId=0]
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.358 s - in com.ntt.challenge.member.enrollment.EnrollmentApplicationTests
+2020-09-28 14:57:34.930  INFO 18936 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-28 14:57:34.936  INFO 18936 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 14:57:34.940  INFO 18936 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-28 14:57:34.951  INFO 18936 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ enrollment ---
+[INFO] Building jar: C:\ntt\projects\sts-ws-test\enrollment\target\enrollment-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.3.4.RELEASE:repackage (repackage) @ enrollment ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ enrollment ---
+[INFO] Installing C:\ntt\projects\sts-ws-test\enrollment\target\enrollment-0.0.1-SNAPSHOT.jar to C:\Users\113852\.m2\repository\com\ntt\challenge\member\enrollment\0.0.1-SNAPSHOT\enrollment-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\ntt\projects\sts-ws-test\enrollment\pom.xml to C:\Users\113852\.m2\repository\com\ntt\challenge\member\enrollment\0.0.1-SNAPSHOT\enrollment-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.179 s
+[INFO] Finished at: 2020-09-28T14:57:36+05:30
+[INFO] ------------------------------------------------------------------------

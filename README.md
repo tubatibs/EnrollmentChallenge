@@ -1,21 +1,25 @@
 # Getting Started
 
-Spring Boot Application:
+###Spring Boot Application:
 Used spring initializer to generate template project with all required maven spring dependencies.  To maeke it easy to review keeping all files in same package.
 
-EnrollmentApplication:  Spring Boot application with different annotations for configuration, repositories and component scans.
+####EnrollmentApplication
+Spring Boot application with different annotations for configuration, repositories and component scans.
 
-MemberEntity: Entity object with table column and other validations configured. This design uses same object for dependents and enrollees.  All dependents
-will have enrollee id and zero for enrollee him/her self. This is to avoid redundancy.  
+####MemberEntity: 
+Entity object with table column and other validations configured. This design uses same object for dependents and enrollees.  All dependents will have enrollee id and zero for enrollee him/her self. This is to avoid redundancy.  
 
-MemberRepository:  CRUD operations repository used to take advantage of spring framework existing functionalities.
+####MemberRepository:  
+CRUD operations repository used to take advantage of spring framework existing functionalities.
 
-MemberService:  Contains individual methods to satisfy the challenge requirements.
+####MemberService:  
+Contains individual methods to satisfy the challenge requirements.
 
-MemberController: Rest controller to publish RestFull services.
+####MemberController: 
+Rest controller to publish RestFull services.
 
 
-H2 Database:
+###H2 Database:
 Used H2 database as embedded for this challenge, because it is very light weight and 100% pure java and integrates with SpringBoot effectively. If required database can 
 be changed very easily as using Java Persistence API. 
 
@@ -24,8 +28,29 @@ Simple one table approach to handle enrolle and dependents.
 
 Executable jar file embedded will all required dependent libraries.  Ready to integrate with front end.
 
+Testing:
 
-12 Factor Micro Services Methodology to support SaaS and ready to be deployed in any cloud providers.
+mvn clean install
+
+
+
+Make sure following URL works after starting   http://localhost:8080/memberEntities
+
+
+ 
+##Future state/Opertunities for improvements
+
+Opertunities to improvements with more business validations like dates, coverages and other items. API's load data from/to different sources. 
+
+Data model enhancements or customizations with auditing and others
+
+Making sure 12 Factor Micro Services Methodology to support SaaS and ready to be deployed in any cloud providers.
+
+Swagger API and SSL implementation for RestFull services and Data and/or password encryption
+
+Containerzation with Docker or kubernatives, based on volume.
+
+Performance, scalling and dash board and  monitoring. 
 
 ### Reference Documentation
 For further reference, please consider the following sections:

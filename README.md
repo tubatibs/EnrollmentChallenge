@@ -37,10 +37,10 @@ Make sure following URL works after starting   http://localhost:8080/memberEntit
 ## ReSTfull API and associated model Test cases
 
 	// Add a new enrollee
-addEnrollee(MemberEntity enrollee) 
+	addEnrollee(MemberEntity enrollee) 
 
 	// Modify an existing enrollee
- modifyEnrolee(MemberEntity enrollee)
+	modifyEnrolee(MemberEntity enrollee)
 
 	// Remove an enrollee entirely - soft delete to set activation status as FALSE
 	removeEnroleeEntirely(long id)
@@ -53,7 +53,8 @@ addEnrollee(MemberEntity enrollee)
 
 	// Modify existing dependents
 	modifyDependent(MemberEntity dependent)
-
+<image https://github.com/tubatibs/EnrollmentChallenge/edit/master/MemberJson.jpeg>	
+<image https://github.com/tubatibs/EnrollmentChallenge/edit/master/H2-DB-enrollment.jpeg>
  
 ## Future state/Opertunities for improvements
 

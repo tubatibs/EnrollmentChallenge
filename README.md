@@ -28,13 +28,13 @@ Simple one table approach to handle enrolle and dependents.
 
 Executable jar file embedded will all required dependent libraries.  Ready to integrate with front end.
 
-Testing:
+Maven Build:   mvn clean install
 
-mvn clean install
-
-
+Start Embedded jar: java -jar target/enrollment-0.0.1-SNAPSHOT.jar <pass environment application.properties>
 
 Make sure following URL works after starting   http://localhost:8080/memberEntities
+
+ReSTfull API:
 
 
  

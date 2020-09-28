@@ -12,11 +12,14 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableAutoConfiguration
 @EnableJpaRepositories
 @ComponentScan
+
 public class EnrollmentApplication {
 
 	public static void main(String[] args) {
 
 		SpringApplication.run(EnrollmentApplication.class, args);
 	}
+
+
 
 }

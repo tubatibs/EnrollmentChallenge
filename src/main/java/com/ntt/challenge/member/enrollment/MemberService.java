@@ -1,6 +1,7 @@
 package com.ntt.challenge.member.enrollment;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -50,5 +51,14 @@ public class MemberService {
 	List<MemberEntity> findAllEnrolleeAndDependents(long id, String status) {
 		return memRepo.findAllEnrolleeAndDependentsWithStatus(id, status);
 	}
-
+	// Supporting Methods
+	Iterable<MemberEntity> findAll() {
+		return memRepo.findAll();
+	}
+	
+	// Supporting Methods
+	Optional<MemberEntity> findById(Long id) {
+		return memRepo.findById(id);
+	}
+	
 }

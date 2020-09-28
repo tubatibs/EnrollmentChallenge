@@ -17,11 +17,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Table(name = "MEMBER")
-@Entity
+
+@Entity(name = "MEMBER")
 @NoArgsConstructor
 @ConstructorBinding
 @ComponentScan(basePackages = "com.ntt.challenge.member.enrollment")
+@Table(name = "MEMBER")
 public class MemberEntity {
 
 	@Id
@@ -30,7 +31,7 @@ public class MemberEntity {
 	@NotNull
 	@Setter
 	@Getter
-	private int id;
+	private long id;
 
 	@Column(name = "NAME")
 	@NotNull(message = "Enrollee/Dependent name can not be null")
@@ -71,9 +72,7 @@ public class MemberEntity {
 				+ dateOfBirth + ", phone=" + phone + ", type=" + type + ", eId=" + eId + "]";
 	}
 
-	public MemberEntity(@NotNull int id, @NotNull(message = "Enrollee/Dependent name can not be null") String name,
-			@NotNull(message = "Enrollee/Dependent activationStatus can not be null") boolean activationStatus,
-			@NotNull(message = "Enrollee/Dependent dateOfBirth can not be null") Date dateOfBirth, String phone,
+	public MemberEntity(int id,String name, boolean activationStatus, Date dateOfBirth, String phone,
 			String type, int eId) {
 		super();
 		this.id = id;

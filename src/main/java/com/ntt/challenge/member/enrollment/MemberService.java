@@ -1,6 +1,6 @@
 package com.ntt.challenge.member.enrollment;
 
-import java.util.Optional;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 
 @Service
 @NoArgsConstructor
-public abstract class MemberService {
+public class MemberService {
 
 	@Autowired
 	MemberRepository memRepo;
@@ -24,9 +24,10 @@ public abstract class MemberService {
 		return memRepo.save(enrollee);
 	}
 
-	// Remove an enrollee entirely
+	// Remove an enrollee entirely - soft delete to set activation status as FALSE
 	void removeEnroleeEntirely(long id) {
-		memRepo.deleteById(id);
+		List<MemberEntity> lstMe = memRepo.findAllEnrolleeAndDependents(new Long(id));
+		lstMe.stream().forEach(me -> {me.setActivationStatus(false); memRepo.save(me);});
 	}
 
 	// Add dependents to an enrollee
@@ -44,9 +45,10 @@ public abstract class MemberService {
 		return memRepo.save(dependent);
 	}
 
+
 	// Supporting Methods
-	Optional<MemberEntity> findMember(MemberEntity dependent) {
-		return memRepo.findById(new Long(dependent.getId()));
+	List<MemberEntity> findAllEnrolleeAndDependents(long id, String status) {
+		return memRepo.findAllEnrolleeAndDependentsWithStatus(id, status);
 	}
 
 }

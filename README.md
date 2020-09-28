@@ -24,7 +24,7 @@ Used H2 database as embedded for this challenge, because it is very light weight
 be changed very easily as using Java Persistence API. 
 
 Simple one table approach to handle enrolle and dependents.
-
+ (H2-DB-enrollment.jpg)
 
 Executable jar file embedded will all required dependent libraries.  Ready to integrate with front end.
 
@@ -34,7 +34,7 @@ Start Embedded jar: java -jar target/enrollment-0.0.1-SNAPSHOT.jar <pass environ
 
 Make sure following URL works after starting   http://localhost:8080/memberEntities
 
-## ReSTfull API and associated model Test cases
+## Swagger UI - Open API v3 -ReSTfull API and associated model Test cases
 
 	// Add a new enrollee
 	addEnrollee(MemberEntity enrollee) 
@@ -54,7 +54,7 @@ Make sure following URL works after starting   http://localhost:8080/memberEntit
 	// Modify existing dependents
 	modifyDependent(MemberEntity dependent)
 
- 
+ (Swagger-MemberJson.JPG)
 ## Future state/Opertunities for improvements
 
 Opertunities to improvements with more business validations like dates, coverages and other items. API's load data from/to different sources. 
@@ -63,7 +63,7 @@ Data model enhancements or customizations with auditing and others
 
 Making sure 12 Factor Micro Services Methodology to support SaaS and ready to be deployed in any cloud providers.
 
-Swagger API and SSL implementation for RestFull services and Data and/or password encryption
+Swagger API enhancements and SSL implementation for RestFull services and Data and/or password encryption
 
 Containerzation with Docker or kubernatives, based on volume.
 

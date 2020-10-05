@@ -34,7 +34,7 @@ Start Embedded jar: java -jar target/enrollment-0.0.1-SNAPSHOT.jar <pass environ
 
 Make sure following URL works after starting   http://localhost:8080/memberEntities
 https://github.com/tubatibs/EnrollmentChallenge/blob/master/H2-DB-enrollment.JPG
-
+[](https://github.com/tubatibs/EnrollmentChallenge/blob/master/H2-DB-enrollment.JPG)
 ## Swagger UI - Open API v3 -ReSTfull API and associated model Test cases
 
 	// Add a new enrollee
@@ -55,8 +55,7 @@ https://github.com/tubatibs/EnrollmentChallenge/blob/master/H2-DB-enrollment.JPG
 	// Modify existing dependents
 	modifyDependent(MemberEntity dependent)
 
-Please refer screenshot: Swagger-MemberJson.JPG 
-https://github.com/tubatibs/EnrollmentChallenge/blob/master/Swagger-MemberJson.JPG
+Please refer screenshot: [Swagger-MemberJson.JPG] (https://github.com/tubatibs/EnrollmentChallenge/blob/master/Swagger-MemberJson.JPG)
 
 ## Future state/Opportunities  for improvements
 

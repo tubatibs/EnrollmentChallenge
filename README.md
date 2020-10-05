@@ -1,10 +1,10 @@
 # Getting Started
 
 ## Spring Boot Application:
-Used spring initializer to generate template project with all required maven spring dependencies.  To maeke it easy to review keeping all files in same package.
+Used spring initializer to generate template project with all required maven spring dependencies. To make it easy to review keeping all files in same package.
 
 #### EnrollmentApplication
-Spring Boot application with different annotations for configuration, repositories and component scans.
+Spring Boot application with different annotations for configuration, repositories, and component scans.
 
 #### MemberEntity: 
 Entity object with table column and other validations configured. This design uses same object for dependents and enrollees.  All dependents will have enrollee id and zero for enrollee him/her self. This is to avoid redundancy.  
@@ -23,7 +23,7 @@ Rest controller to publish RestFull services.
 Used H2 database as embedded for this challenge, because it is very light weight and 100% pure java and integrates with SpringBoot effectively. If required database can 
 be changed very easily as using Java Persistence API. 
 
-Simple one table approach to handle enrolle and dependents.
+Simple one table approach to handle enrollee and dependents.
 Please refer screenshot: H2-DB-enrollment.jpg
 
 Executable jar file embedded will all required dependent libraries.  Ready to integrate with front end.
@@ -33,6 +33,7 @@ Maven Build:   mvn clean install
 Start Embedded jar: java -jar target/enrollment-0.0.1-SNAPSHOT.jar <pass environment application.properties>
 
 Make sure following URL works after starting   http://localhost:8080/memberEntities
+https://github.com/tubatibs/EnrollmentChallenge/blob/master/H2-DB-enrollment.JPG
 
 ## Swagger UI - Open API v3 -ReSTfull API and associated model Test cases
 
@@ -54,21 +55,18 @@ Make sure following URL works after starting   http://localhost:8080/memberEntit
 	// Modify existing dependents
 	modifyDependent(MemberEntity dependent)
 
-Please refer screenshot: Swagger-MemberJson.JPG
+Please refer screenshot: Swagger-MemberJson.JPG 
+https://github.com/tubatibs/EnrollmentChallenge/blob/master/Swagger-MemberJson.JPG
 
-## Future state/Opertunities for improvements
+## Future state/Opportunities  for improvements
 
-Opertunities to improvements with more business validations like dates, coverages and other items. API's load data from/to different sources. 
-
+Opportunities to improvements with more business validations like dates, coverages and other items. API's load data from/to different sources.
 Data model enhancements or customizations with auditing and others
-
 Making sure 12 Factor Micro Services Methodology to support SaaS and ready to be deployed in any cloud providers.
-
 Swagger API enhancements and SSL implementation for RestFull services and Data and/or password encryption
+Containerization with Docker or Kubernetes based on volume.
+Performance, scaling and dashboard and monitoring.
 
-Containerzation with Docker or kubernatives, based on volume.
-
-Performance, scalling and dash board and  monitoring. 
 
 ## About
 Really enjoyed working on this challenge,   

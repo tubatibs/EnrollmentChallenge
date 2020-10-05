@@ -60,16 +60,23 @@ https://github.com/tubatibs/EnrollmentChallenge/blob/master/Swagger-MemberJson.J
 
 ## Future state/Opportunities  for improvements
 
-Opportunities to improvements with more business validations like dates, coverages and other items. API's load data from/to different sources.
+Opportunities to improvements with more business validations like dates, coverages and other items.
+
+API's load data from/to different sources.
+
 Data model enhancements or customizations with auditing and others
+
 Making sure 12 Factor Micro Services Methodology to support SaaS and ready to be deployed in any cloud providers.
+
 Swagger API enhancements and SSL implementation for RestFull services and Data and/or password encryption
+
 Containerization with Docker or Kubernetes based on volume.
+
 Performance, scaling and dashboard and monitoring.
 
 
 ## About
-Really enjoyed working on this challenge,   
+Really enjoyed working on this challenge, Learning Go language and it is simple but having difficulty connecting same h2 database.  Trying kubernetes and scaling nodes.
 
 ### Reference Documentation
 For further reference, please consider the following sections:
